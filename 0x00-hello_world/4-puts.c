@@ -1,7 +1,7 @@
 #include <stdio.h>
 /*
- * using puts func in c programming
- * main - it is where all code will be excuted
+ * main - the main block
+ * Return: 0 
  */
 
 int main(void)
