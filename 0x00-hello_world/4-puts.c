@@ -1,4 +1,9 @@
 #include <stdio.h>
+/*
+ *
+ * using puts func in c programming
+ *
+ * */
 
 int main(void)
 {
