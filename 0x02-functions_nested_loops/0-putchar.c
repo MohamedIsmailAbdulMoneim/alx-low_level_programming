@@ -1,7 +1,9 @@
+#include <unistd.h>
 #include "main.h"
 /**
  * main - print _putchar
  * is written by mia
+ *  _putchar - writes the character c to stdout
  * Return: 0
  */
 int main(void)
