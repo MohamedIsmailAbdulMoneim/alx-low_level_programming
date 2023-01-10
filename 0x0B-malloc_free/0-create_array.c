@@ -11,17 +11,3 @@ char* create_array(int size, char c)
 	}
 	return arr;
 }
-
-int main(void)
-{
-	int size = 10;
-	char c = 'M';
-	int i;
-	char* arr = create_array(size, c);
-
-	for (i = 0; i < size; i++)
-	{
-		printf("%c", arr[i]);
-	}
-	return (0);
-}
