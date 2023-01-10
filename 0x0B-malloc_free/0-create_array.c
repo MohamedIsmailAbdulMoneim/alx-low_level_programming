@@ -1,15 +1,14 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-char* create_array(unsigned int size, char c)
+char *create_array(unsigned int size, char c)
 {
 	unsigned int i;
-	char* arr;
-	
+	char *arr;
 	if (size == 0)
 		return (NULL);
 	arr = (char*) malloc(sizeof(char) * size);
-	if(arr == NULL)
+	if (arr == NULL)
 		return (NULL);
 	for (i = 0; i < size; i++)
 	{
