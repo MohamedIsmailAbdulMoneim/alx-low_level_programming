@@ -10,7 +10,6 @@ char* create_array(unsigned int size, char c)
 		if(arr == NULL)
 		{
 			printf("failed to allocate memory");
-			return;
 		}
 		arr[i] = c;
 	}
