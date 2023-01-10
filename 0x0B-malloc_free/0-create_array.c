@@ -9,8 +9,7 @@ char* create_array(unsigned int size, char c)
 	{
 		if(arr == NULL)
 		{
-			printf ("failed to allocate memory");
-			return (1);
+			return ("failed to allocate memory");
 		}
 		arr[i] = c;
 	}
