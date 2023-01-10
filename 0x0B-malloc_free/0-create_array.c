@@ -4,9 +4,10 @@
 char* create_array(unsigned int size, char c)
 {
 	unsigned int i;
+	char* arr;
+	
 	if (size == 0)
 		return (NULL);
-	char* arr;
 	arr = (char*) malloc(sizeof(char) * size);
 	if(arr == NULL)
 		return (NULL);
