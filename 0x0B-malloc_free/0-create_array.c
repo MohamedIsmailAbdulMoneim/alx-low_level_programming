@@ -7,6 +7,11 @@ char* create_array(unsigned int size, char c)
 	char* arr = (char*) malloc(sizeof(char) * size);
 	for (i = 0; i < size; i++)
 	{
+		if(arr[i] == NULL)
+		{
+			printf("failed to allocate memory");
+			return (1);
+		}
 		arr[i] = c;
 	}
 	return arr;
