@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-char* create_array(int size, char c)
+char* create_array(unsigned int size, char c)
 {
 	int i;
 	char* arr = (char*) malloc(sizeof(char) * size);
