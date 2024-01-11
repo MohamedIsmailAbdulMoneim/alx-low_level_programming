@@ -1,14 +1,14 @@
-#include <stdio.h>
+#include "main.h"
 
 void _puts_recursion(char *s)
 {
     if (*s != '\0')
     {
-        printf("%c", *s);
+        _putchar(*s);
         _puts_recursion(s + 1);
     }
     else
     {
-        printf("\n");
+        _putchar('\n');
     }
 }
